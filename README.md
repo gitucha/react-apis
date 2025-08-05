@@ -1,12 +1,14 @@
-# React + Vite
+## Rick and Morty app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple project where we weere supposed to create an interactive webpage using the rick and morty api to:
+1. Display character images
+2. Be able to delete characters of choice
+3. Use react router dom to route to character details when more information about a character is needed
+4. A search bar that will be able to filter characters
+5. A loader to handle delays from the API
 
-Currently, two official plugins are available:
+## Key take-aways from the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. I was able to learn dynamic rendering i.e routing using react router DOM
+2. I was able to learn how to fetch data using useEffect
+3. I was able to learn simple and key delete and search functionalities.
